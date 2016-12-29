@@ -1,0 +1,39 @@
+{
+  "title": "resp-sass",
+  "name": "resp-sass",
+  "version": "0.0.1",
+  "description": "Making responsive sass easy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulpatarinski/resp-sass.git"
+  },
+  "main": "_resp-mixin.scss",
+  "author": {
+    "name": "Paul Patarinski"
+  },
+  "bugs": {
+    "url": "https://github.com/paulpatarinski/resp-sass/issues"
+  },
+  "keywords": [
+    "sass",
+    "mediaquery",
+    "query",
+    "queries",
+    "media",
+    "responsive"
+  ],
+  "files": [
+    "src/_resp-config.scss",
+    "src/_resp-mixin.scss"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "include-media": "^1.4.9"
+  },
+  "devDependencies": {
+    "node-sass": "^4.1.1"
+  },
+  "scripts": {
+      "sass" : "node-sass --include-path scss examples/app.scss examples/app.css"
+  }
+}
