@@ -1,2 +1,2 @@
 # resp-sass
-Making responsive writing sass easy 
+Making writing responsive sass easy.

@@ -1,8 +1,8 @@
 {
   "title": "resp-sass",
   "name": "resp-sass",
-  "version": "0.0.3",
-  "description": "Making responsive sass easy",
+  "version": "0.0.4",
+  "description": "Making writing responsive sass easy.",
   "repository": {
     "type": "git",
     "url": "https://github.com/paulpatarinski/resp-sass.git"
