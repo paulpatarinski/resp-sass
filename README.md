@@ -2,23 +2,29 @@
 Making writing responsive sass easy.
 
 ## Getting started : 
-1. npm install resp-sass
-2. Import [_resp-mixin.scss](https://github.com/paulpatarinski/resp-sass/blob/master/src/_resp-mixin.scss)
 
-    ```
-    @import "node_modules/resp-sass/src/resp-mixin";
-    ```
+Install the module
 
-3. Use the **set-resp-value** mixin in your sass
+```
+npm install resp-sass
+```
 
-    ```
-    .cat-img {
-        @include set-resp-value((height,width),140px,180px,240px);
-    }
-    ```
+Import [_resp-mixin.scss](https://github.com/paulpatarinski/resp-sass/blob/master/src/_resp-mixin.scss)
 
-4. Modify the breakpoints in [_resp-config.scss](https://github.com/paulpatarinski/resp-sass/blob/master/src/_resp-config.scss) to your own liking
-    > Default values are mobile-centric
+```
+@import "node_modules/resp-sass/src/resp-mixin";
+```
+
+Use the **set-resp-value** mixin in your sass
+
+```
+.cat-img {
+    @include set-resp-value((height,width),140px,180px,240px);
+}
+```
+
+Modify the breakpoints in [_resp-config.scss](https://github.com/paulpatarinski/resp-sass/blob/master/src/_resp-config.scss) to your own liking
+> Default values are mobile-centric
 
 ## Examples :
 
