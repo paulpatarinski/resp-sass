@@ -1,0 +1,7 @@
+.cat-title {
+    @include set-resp-value((font-size),14px,18px,20px);
+}
+
+.cat-img {
+    @include set-resp-value((height,width),140px,180px,240px);
+}
