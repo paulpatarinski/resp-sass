@@ -1,0 +1,6 @@
+{
+  "title": "resp-sass-example",
+  "dependencies": {
+    "resp-sass": "^0.0.3"
+  }
+}
