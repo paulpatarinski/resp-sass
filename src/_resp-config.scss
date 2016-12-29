@@ -1,5 +1,5 @@
 //Examples : http://include-media.com/
-@import "../node_modules/include-media/dist/_include-media.scss";
+@import "include-media";
 
 $media-expressions: (
   'smaller-then-iPhone5': '(device-aspect-ratio: 2/3)',

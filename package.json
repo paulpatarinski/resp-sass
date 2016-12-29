@@ -1,7 +1,7 @@
 {
   "title": "resp-sass",
   "name": "resp-sass",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Making responsive sass easy",
   "repository": {
     "type": "git",
@@ -27,9 +27,6 @@
     "src/_resp-mixin.scss"
   ],
   "license": "MIT",
-  "dependencies": {
-    "include-media": "^1.4.9"
-  },
   "devDependencies": {
     "node-sass": "^4.1.1"
   },
