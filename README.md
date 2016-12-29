@@ -3,7 +3,7 @@ Making writing responsive sass easy.
 
 ## Getting started : 
 1. npm install resp-sass
-2. Import [resp-mixin.scss](https://github.com/paulpatarinski/resp-sass/blob/master/src/resp-mixin.scss)
+2. Import [_resp-mixin.scss](https://github.com/paulpatarinski/resp-sass/blob/master/src/_resp-mixin.scss)
 
 ```
 @import "node_modules/resp-sass/src/resp-mixin";
@@ -17,7 +17,7 @@ Making writing responsive sass easy.
 }
 ```
 
-4. Modify the breakpoints in [resp-config.scss](https://github.com/paulpatarinski/resp-sass/blob/master/src/resp-config.scss) to your own liking
+4. Modify the breakpoints in [_resp-config.scss](https://github.com/paulpatarinski/resp-sass/blob/master/src/_resp-config.scss) to your own liking
     > Default values are mobile-centric
 
 ## Examples :
