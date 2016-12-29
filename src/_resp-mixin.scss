@@ -1,0 +1,20 @@
+@import "resp-config";
+
+//Based on some ideas from here http://krasimirtsonev.com/blog/article/Two-handy-and-advanced-SASS-features-and-their-limitations
+@mixin set-resp-value($properties,$small,$medium, $large) {
+  @include media($small-bp...){
+     @each $prop in $properties {
+        #{$prop}: $small;
+    }
+  }
+  @include media($medium-bp...){
+    @each $prop in $properties {
+        #{$prop}: $medium;
+    }
+  }
+  @include media($large-bp){
+     @each $prop in $properties {
+        #{$prop}: $large;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+//Examples : http://include-media.com/
+@import "../node_modules/include-media/dist/_include-media.scss";
+
+$media-expressions: (
+  'smaller-then-iPhone5': '(device-aspect-ratio: 2/3)',
+  'iPhone5-and-larger' : '(min-width : 320px) and (min-height : 481px)' 
+);
+
+//iOS Breakpoints http://stackoverflow.com/questions/25759046/iphone-6-and-6-plus-media-queries
+//Phablet Width : Nexus 6 412px / iPhone 6+ 414px
+$breakpoints: (iPhone5: 320px,iPhone6: 375px, phablet: 412px);
+
+$small-bp:"smaller-then-iPhone5"; 
+$medium-bp: "iPhone5-and-larger","<phablet";
+$large-bp: ">=phablet";
